@@ -1,0 +1,76 @@
+
+.Login_Container{
+display:flex;
+flex-direction: column;
+background-image: url("../Images/login-background.jpg");
+z-index: -1;
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+text-align: center;
+overflow: hidden;
+height: 100vh;
+}
+.LoginLogo{
+    margin-bottom: 2vw;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition-timing-function: ease-out;
+  transition-duration:opacity 0.2s;
+  width:100%;
+}
+.loginbtn{
+    color:#f9f9f9;
+    background-color: #006385;
+    padding: 16.5px 0;
+    margin-bottom: 12px;
+    width :100%;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing:1.5px;
+    border:1px solid transparent;
+    border-radius:4px;
+    
+}
+.loginbtn:hover{
+    background-color: #0483ee;
+    
+}
+.description{
+    color:hsla(0,0%,95.3%,1);
+    font-size: 11px;
+    overflow:hidden;
+    margin :0 0 24px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    
+}
+.LoginLogoOneimg {
+    max-width: 600px;
+    margin-bottom: 12px;
+    min-height: 1px;
+    width:100%;
+    display:block;
+
+
+}
+
+.Login_Contetnt{
+    position: relative;
+display:flex;
+flex-direction: column;
+width:100%;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+min-height:100vh;
+padding:80px 40px;
+/* height: 100%; */
+}
